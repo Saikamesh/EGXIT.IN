@@ -41,8 +41,11 @@ INSTALLED_APPS = [
     "rest_framework",
     "formtools",
     "crispy_forms",
+    "crispy_bootstrap5",
     "survey"
 ]
+
+CRISPY_TEMPLATE_PACK = "bootstrap5"
 
 MIDDLEWARE = [
     "django.middleware.security.SecurityMiddleware",
